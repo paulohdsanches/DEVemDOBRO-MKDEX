@@ -1,0 +1,119 @@
+.cartao-mk {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-mk .cartao-topo {
+    padding: 30px 40px 0;
+}
+
+.cartao-mk .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-mk .tipo {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-mk .detalhes {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-mk .cartao-imagem {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-mk img {
+    max-height: 100%;
+}
+
+.cartao-mk .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-mk .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.cartao-mk .cartao-informacoes .status, .cartao-mk .cartao-informacoes .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-mk .cartao-informacoes .habilidades ul li, .cartao-mk .cartao-informacoes .status ul li {
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-mk.aberto {
+    display: block;
+}
+
+.tipo-ashrah {
+    background: url(../imagens/netherealm.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.tipo-baraka {
+    background: url(../imagens/exoterra.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.tipo-shao {
+    background: url(../imagens/exoterra.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.tipo-geras {
+    background: url(../imagens/fundo-geras.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.tipo-havik {
+    background: url(../imagens/chaosrealm.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.tipo-kenshi {
+    background: url(../imagens/eatherealm.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.tipo-kitana {
+    background: url(../imagens/edenia.png) no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+.tipo-deus-fogo {
+    background: url(../imagens/fundo-deus.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
